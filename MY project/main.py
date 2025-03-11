@@ -60,3 +60,5 @@ if isGraduate:
     print("Congratulations!")
 else:
     print("You have classes to finish.")
+
+
