@@ -36,8 +36,6 @@ else:
     print("Invalid input. Please enter Y or N.")
 
 
-
-
 # if response == "yes" or response == "umm":
 #     print("so lets eat some food ")
 # else :
