@@ -34,9 +34,3 @@ elif response == "N":
     print("Thanks for visiting! Have a great day.")
 else:
     print("Invalid input. Please enter Y or N.")
-
-
-# if response == "yes" or response == "umm":
-#     print("so lets eat some food ")
-# else :
-#     print("okey than")
