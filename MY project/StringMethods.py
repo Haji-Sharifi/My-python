@@ -26,16 +26,16 @@
 
 # task num 1
 
-username = input("Enter a username : ")
+# username = input("Enter a username : ")
 
-if len(username) > 12 :
-    print("your username can't be more than 12 characters")
-elif not username.find(" ") == -1 :
-    print("Your user name can not contian spaces")
-elif not username.isalpha() :
-    print("Your username con't contian number ")
-else:
-    print(f"Welcome {username}")
+# if len(username) > 12 :
+#     print("your username can't be more than 12 characters")
+# elif not username.find(" ") == -1 :
+#     print("Your user name can not contian spaces")
+# elif not username.isalpha() :
+#     print("Your username con't contian number ")
+# else:
+#     print(f"Welcome {username}")
 
 
 
