@@ -16,7 +16,9 @@
 # print(creditNumber[::3]) # using step :
 
 creditNumber = "1234-5678-9012-3456"
+# print(f"XXXX-XXXX-XXXX-{lastDegits}")
 
-lastDegits = creditNumber[-4 : ]
+# lastDegits = creditNumber[-4 : ]
+creditNumber = creditNumber[::-1]
+print(creditNumber)
 
-print(f"XXXX-XXXX-XXXX-{lastDegits}")
