@@ -13,4 +13,4 @@ creditNumber = "1234-5678-9012-3456"
 
 # print(creditNumber[-1])
 
-print(creditNumber[:: ])
+print(creditNumber[::3])
