@@ -17,8 +17,6 @@ price2 = -987.65
 price3 = 12.34
 
 
-print(f"price 1 is {price1:.2f}")  #showing decimal point
-print(f"price 2 is {price2}")
-print(f"price 3 is {price3}")
-
-      
+print(f"price 1 is ${price1:.1f}")  #showing decimal point
+print(f"price 2 is ${price2:.1f}")
+print(f"price 3 is ${price3:.1f}")
