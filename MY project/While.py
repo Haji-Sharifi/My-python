@@ -15,3 +15,12 @@
 #     age = int(input("Enter your age : "))
 
 # print(f"Your age is {age}")
+
+
+food = input("Enter your favorite food : (q to quit) ")
+
+while not food == "q":
+    print(f"you like {food}")
+    food = input("Enter your favorite food : (q to quit) ")
+
+print("Goodbye")
