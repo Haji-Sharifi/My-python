@@ -19,6 +19,5 @@ while time <= 0:
         print("Time can not be negative or zero")
 
 
-print(principle)
-print(rate)
-print(time)
+total = principle * pow((1 + rate / 100) , time)
+print(f"Balance after {time} years is : ${total:.2f}")
