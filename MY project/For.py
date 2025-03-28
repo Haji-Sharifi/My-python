@@ -17,3 +17,5 @@
 # it will print the numbers from 10 to 1
 # The reversed function reverses the order of the sequence
 
+for x in range(1, 11 ,2) :
+    print(x)
