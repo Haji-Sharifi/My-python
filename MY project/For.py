@@ -4,5 +4,16 @@
 #                 print(x)
 
 
-for x in range(1, 10):
-    print(x)
+# for x in range(1, 11):
+#     print(x)
+    
+# The range function generates a sequence of numbers from 1 to 11
+
+
+
+# for x in reversed(range(1, 11)):
+#     print(x)
+
+# it will print the numbers from 10 to 1
+# The reversed function reverses the order of the sequence
+
