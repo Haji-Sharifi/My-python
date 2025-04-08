@@ -72,12 +72,12 @@
 # print(f'The area of the circle is : {round(area , 2)} cm^2')
 
 
-# import math
-# a = float(input('Enter side A: '))
-# b = float(input('Enter side B: '))
+import math
+a = float(input('Enter side A: '))
+b = float(input('Enter side B: '))
 
-# c = math.sqrt(pow(a, 2) + pow(b, 2))
+c = math.sqrt(pow(a, 2) + pow(b, 2))
 
-# print(f'side C = {c}')
+print(f'side C = {c}')
 
 
