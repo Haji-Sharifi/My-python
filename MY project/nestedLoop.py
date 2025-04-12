@@ -3,7 +3,7 @@
 #                    inner loop : 
 
 rows = int(input("Enter the # of rows: "))
-rows = int(input("Enter the # of rows: "))
+columns = int(input("Enter the # of column: "))
 
 for i in range(3):
     for j in range(1, 10) :
