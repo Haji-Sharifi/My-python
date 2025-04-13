@@ -5,11 +5,4 @@
 
 fruits = ['apple', 'banana', 'cherry']
 
-print(fruits[1])  # Output: banana
-print(fruits[-1])  # Output: cherry
-print(fruits[1:3])  # Output: ['banana', 'cherry']
-print(fruits[1:])  # Output: ['banana', 'cherry']
-print(fruits[:2])  # Output: ['apple', 'banana']
-print(fruits[-2:])  # Output: ['banana', 'cherry']
-print(fruits[-3:-1])  # Output: ['apple', 'banana']
-print(fruits[-2:])  # Output: ['banana', 'cherry']   
+# print(dir(fruits))
