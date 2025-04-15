@@ -4,5 +4,8 @@
 #  Tuple     = ()   - ordered and unchangeable. Duplicates OK Faster 
 
 fruits = ['apple', 'banana', 'cherry']
+print(dir(fruits))
+help(fruits)
+
 
 # print(dir(fruits))
