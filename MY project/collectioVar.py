@@ -9,3 +9,5 @@ print(help(fruits))
 
 
 # print(dir(fruits))
+# for frut in fruits:
+#    print(frut)
