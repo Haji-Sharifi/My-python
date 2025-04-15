@@ -5,7 +5,7 @@
 
 fruits = ['apple', 'banana', 'cherry']
 print(dir(fruits))
-help(fruits)
+print(help(fruits))
 
 
 # print(dir(fruits))
