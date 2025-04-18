@@ -7,7 +7,11 @@ fruits = ['apple', 'banana', 'cherry']
 # print(dir(fruits))
 # print(help(fruits))
 
-print(len(fruits))
+# print(len(fruits))
+
+
+print("apple" in fruits) # True
+print("apple" not in fruits) # False
 
 
 # print(dir(fruits))
