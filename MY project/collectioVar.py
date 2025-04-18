@@ -3,7 +3,7 @@
 #   set      = {}   - unordered and immutable, but Add/Remove OK. No duplicates
 #  Tuple     = ()   - ordered and unchangeable. Duplicates OK Faster 
 
-fruits = ['apple', 'banana', 'cherry']
+fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
 # print(dir(fruits))
 # print(help(fruits))
 
@@ -13,10 +13,12 @@ fruits = ['apple', 'banana', 'cherry']
 # print("apple" in fruits) # True
 # print("pinapple" not in fruits) # False
 
-fruits[0] = "pinapple"
+# fruits[1] = "pinapple"
+# fruits.append("pinapple") # add to the end
+fruits.remove("banana") # remove by value
 
 
 # print(dir(fruits))
 for fruit in fruits:
-   print(fruits)
+   print(fruit)
 
