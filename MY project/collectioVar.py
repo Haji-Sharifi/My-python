@@ -3,7 +3,7 @@
 #   set      = {}   - unordered and immutable, but Add/Remove OK. No duplicates
 #  Tuple     = ()   - ordered and unchangeable. Duplicates OK Faster 
 
-fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
+# fruits = ['apple', 'banana', 'cherry', 'orange', ]
 # print(dir(fruits))
 # print(help(fruits))
 
@@ -23,9 +23,13 @@ fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
 # fruits.clear() # remove all items
 
 # print(fruits.index('apple')) # find index of value
+# print(fruits.count('apple')) # count how many times a value appears
 
 
 # print(dir(fruits))
-for fruit in fruits:
-   print(fruit)
+# for fruit in fruits:
+#    print(fruit)
 
+#  using set {}
+
+fruits = {'apple', 'banana', 'cherry', 'orange', }
