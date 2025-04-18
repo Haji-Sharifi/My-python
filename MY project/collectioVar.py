@@ -6,7 +6,6 @@
 # fruits = ['apple', 'banana', 'cherry', 'orange', ]
 # print(dir(fruits))
 # print(help(fruits))
-
 # print(len(fruits))
 
 
@@ -33,3 +32,7 @@
 #  using set {}
 
 fruits = {'apple', 'banana', 'cherry', 'orange', }
+
+# print('pineapple' in fruits) # False
+
+print(fruits[0]) # TypeError: 'set' object is not subscriptable
