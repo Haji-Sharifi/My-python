@@ -10,11 +10,13 @@ fruits = ['apple', 'banana', 'cherry']
 # print(len(fruits))
 
 
-print("apple" in fruits) # True
-print("apple" not in fruits) # False
+# print("apple" in fruits) # True
+# print("pinapple" not in fruits) # False
+
+fruits[0] = "pinapple"
 
 
 # print(dir(fruits))
-# for frut in fruits:
-#    print(frut)
+for fruit in fruits:
+   print(fruits)
 
