@@ -15,7 +15,14 @@ fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
 
 # fruits[1] = "pinapple"
 # fruits.append("pinapple") # add to the end
-fruits.remove("banana") # remove by value
+# fruits.remove("banana") # remove by value
+# fruits.insert(0, 'pinapple') 
+# fruits.sort()
+# fruits.reverse()
+# fruits.index('apple') # find index of value
+# fruits.clear() # remove all items
+
+# print(fruits.index('apple')) # find index of value
 
 
 # print(dir(fruits))
