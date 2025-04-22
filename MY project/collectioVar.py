@@ -43,4 +43,4 @@
 
 fruits = ('apple', 'banana', 'cherry', 'orange', )
 
-print(fruits)
+print("Pineapple" in fruits)
