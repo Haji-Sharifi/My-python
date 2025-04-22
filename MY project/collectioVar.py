@@ -31,8 +31,16 @@
 
 #  using set {}
 
-fruits = {'apple', 'banana', 'cherry', 'orange', }
+# fruits = {'apple', 'banana', 'cherry', 'orange', }
 
 # print('pineapple' in fruits) # False
 
-print(fruits[0]) # TypeError: 'set' object is not subscriptable
+# print(fruits[0]) # TypeError: 'set' object is not subscriptable
+
+
+
+# using Tuple 
+
+fruits = ('apple', 'banana', 'cherry', 'orange', )
+
+print(fruits)
