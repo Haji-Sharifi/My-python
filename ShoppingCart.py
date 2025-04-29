@@ -1,6 +1,6 @@
 # Shopping cart program
 
-food = []
+foods = []
 prices = []
 total = 0
 while True:
@@ -8,7 +8,11 @@ while True:
     if food.lower() == 'done':
         break
     else :
-        price = float(input(f"Enter the price of {food}: "))
+        price = float(input(f"Enter the price of {food}: $ "))
+        foods.append(food)
         prices.append(price)
-        total += price
-        print(f"{food} added to cart. Current total: ${total:.2f}")
+
+print("------ Your Shopping Cart ------")
+
+for food in food
+    print(food)
