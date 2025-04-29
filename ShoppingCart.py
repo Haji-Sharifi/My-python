@@ -18,4 +18,7 @@ for food in foods :
     print(food, end=' ')
 
 for price in prices :
-    total = total + price
+    total += price
+
+print(f"\nTotal: $ {total:.2f}")
+print("Thank you for shopping with us!")
