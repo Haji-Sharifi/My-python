@@ -41,7 +41,7 @@
 
 # using Tuple 
 
-fruits = ('apple', 'banana', 'cherry', 'orange', )
+fruits = ('apple', 'banana', 'cherry', 'orange', 'orange' )
  
 print (fruits.count('apple')) # count how many times a value appears
 
