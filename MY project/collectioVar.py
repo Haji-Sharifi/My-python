@@ -42,5 +42,10 @@
 # using Tuple 
 
 fruits = ('apple', 'banana', 'cherry', 'orange', )
+ 
+print (fruits.count('apple')) # count how many times a value appears
 
-print("Pineapple" in fruits)
+for fruit in fruits:
+    print(fruit)
+
+# print("Pineapple" in fruits)
