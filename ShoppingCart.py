@@ -14,5 +14,8 @@ while True:
 
 print("------ Your Shopping Cart ------")
 
-for food in food
-    print(food)
+for food in foods :
+    print(food, end=' ')
+
+for price in prices :
+    total = total + price
