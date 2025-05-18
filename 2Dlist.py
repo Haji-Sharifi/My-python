@@ -14,3 +14,8 @@
 groceries = [["apple", "orange", "banana", "coconut"],
              ["celery", "carrots", "potatoes"],
              ["checken" , "fish" , "turkey"]]
+
+for collection in groceries :
+    for food in collection :
+        print(food, end=" ")
+    print()
