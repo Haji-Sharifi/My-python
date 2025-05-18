@@ -4,4 +4,6 @@ numPad = ((1 ,2 ,3),
           ("*", 0 , "#"))
 
 for row in numPad:
-    print(row)
+    for num in row :
+        print(num , end=" ")
+    print()
