@@ -1,5 +1,5 @@
 fruits =     ["apple", "orange", "banana", "coconut"]
-vegtabeles = ["celery", "carrots", "poraroes"]
+vegtabeles = ["celery", "carrots", "potatoes"]
 meats =      ["checken" , "fish" , "turkey"]
 
 groceries =  [fruits, vegtabeles, meats]
