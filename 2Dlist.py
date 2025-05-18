@@ -1,11 +1,16 @@
-fruits =     ["apple", "orange", "banana", "coconut"]
-vegtabeles = ["celery", "carrots", "potatoes"]
-meats =      ["checken" , "fish" , "turkey"]
+# fruits =     ["apple", "orange", "banana", "coconut"]
+# vegtabeles = ["celery", "carrots", "potatoes"]
+# meats =      ["checken" , "fish" , "turkey"]
 
-groceries =  [fruits, vegtabeles, meats]
+# groceries =  [fruits, vegtabeles, meats]
 
-# fruits[0] = "kiwi"
-# print(fruits)
+# # fruits[0] = "kiwi"
+# # print(fruits)
 
-print(groceries[0][0])
-print(groceries[1][2])
+# print(groceries[0][0])
+# print(groceries[1][2])
+
+
+groceries = [["apple", "orange", "banana", "coconut"],
+             ["celery", "carrots", "potatoes"],
+             ["checken" , "fish" , "turkey"]]
