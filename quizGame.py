@@ -43,4 +43,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~")
 print("Answers: ", " ".join(answers))
 print("Guesses: ", " ".join(guesses))
 print("~~~~~~~~~~~~~~~~~~~~~~~")
-print(f"You got {score} out of {len(questions)} correct.")
+
+
+score = int(score / len(questions) * 100)
+print(f"Your score is {score}%")
