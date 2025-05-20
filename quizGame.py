@@ -38,4 +38,14 @@ for question in questions :
         print("Incorrect! The correct answer is", answers[questionsNum - 1])
 print("~~~~~~~~~~~~~~~~~~~~~~~")
 
+print("answers: ", end="")
+for answer in answers:
+    print(answer, end=" ")
+print()
+
+print("guesses: ", end="")
+for quess in quesses:
+    print(quess, end=" ")
+print()
+print("~~~~~~~~~~~~~~~~~~~~~~~")
 print("You got", score, "out of", len(questions), "correct.")
