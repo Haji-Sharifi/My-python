@@ -19,7 +19,7 @@ options = (
     ("A. Nile", "B. Amazon", "C. Yangtze", "D. Mississippi")
 )
 
-answers = ("A", "A", "B", "A", "A")  # Corrected and completed answers
+answers = ("A", "A", "B", "A", "A")  # Correct answers
 
 guesses = []
 score = 0
