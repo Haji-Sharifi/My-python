@@ -37,3 +37,5 @@ for question in questions :
     else:
         print("Incorrect! The correct answer is", answers[questionsNum - 1])
 print("~~~~~~~~~~~~~~~~~~~~~~~")
+
+print("You got", score, "out of", len(questions), "correct.")
