@@ -1,4 +1,7 @@
-# Python quiz game
+# Quiz game with multiple-choice questions
+# This is a simple quiz game where the user is presented with multiple-choice questions.
+# The user can input their answers, and at the end, the game will display the correct answers and the user's score.
+# Quiz Game
 
 questions = (
     "What is the capital of France?",
@@ -8,44 +11,36 @@ questions = (
     "What is the longest river in the world?",
 )
 
-options = (("A. Paris","B. London","C. Berlin","D. Madrid"),
-           ("A. Jupiter","B. Saturn","C. Earth","D. Mars"),
-           ("A. 1","B. 2","C. 3","D. 4"),
-           ("A. Au","B. Ag","C. Fe","D. Pb"),
-           ("A. Nile","B. Amazon","C. Yangtze","E. Mississippi"))
+options = (
+    ("A. Paris", "B. London", "C. Berlin", "D. Madrid"),
+    ("A. Jupiter", "B. Saturn", "C. Earth", "D. Mars"),
+    ("A. 1", "B. 2", "C. 3", "D. 4"),
+    ("A. Au", "B. Ag", "C. Fe", "D. Pb"),
+    ("A. Nile", "B. Amazon", "C. Yangtze", "D. Mississippi")
+)
 
+answers = ("A", "A", "B", "A", "A")  # Corrected and completed answers
 
+guesses = []
+score = 0
 
-answers = ("A", "B", "C", "D", )
-quesses = []
-score = 0 
-questionsNum = 0
-
-
-for question in questions :
+for i in range(len(questions)):
     print("~~~~~~~~~~~~~~~~~~~~~~~")
-    print(question)
-    for option in options[questionsNum]:
+    print(questions[i])
+    for option in options[i]:
         print(option)
     print("~~~~~~~~~~~~~~~~~~~~~~~")
-    quess = input("Enter your answer: ")
-    quesses.append(quess)
-    questionsNum += 1
-    if quess == answers[questionsNum - 1]:
+    guess = input("Enter your answer (A/B/C/D): ").upper()
+    guesses.append(guess)
+
+    if guess == answers[i]:
         print("Correct!")
         score += 1
     else:
-        print("Incorrect! The correct answer is", answers[questionsNum - 1])
-print("~~~~~~~~~~~~~~~~~~~~~~~")
+        print(f"Incorrect! The correct answer is {answers[i]}")
 
-print("answers: ", end="")
-for answer in answers:
-    print(answer, end=" ")
-print()
-
-print("guesses: ", end="")
-for quess in quesses:
-    print(quess, end=" ")
-print()
 print("~~~~~~~~~~~~~~~~~~~~~~~")
-print("You got", score, "out of", len(questions), "correct.")
+print("Answers: ", " ".join(answers))
+print("Guesses: ", " ".join(guesses))
+print("~~~~~~~~~~~~~~~~~~~~~~~")
+print(f"You got {score} out of {len(questions)} correct.")
